@@ -1,1 +1,2619 @@
 
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a2f27">
+
+<title>مئوية بوتلميت | زاوية الشيخ سيديا الكبير</title>
+
+<meta name="description"
+content="احتفالية بوتلميت بمرور 200 عام على التأسيس — زاوية الشيخ سيديا الكبير">
+
+<style>
+:root{
+  --wine:#6d1510;
+  --wine2:#330907;
+  --green:#0b4637;
+  --green2:#062a22;
+  --gold:#e8bd68;
+  --gold2:#ffe4a1;
+  --cream:#fff8ea;
+  --ink:#35170e;
+  --muted:#766052;
+  --shadow:0 18px 46px rgba(48,18,8,.18)
+}
+
+*{
+  box-sizing:border-box
+}
+
+html{
+  scroll-behavior:smooth
+}
+
+body{
+  margin:0;
+  background:#f7efe3;
+  color:var(--ink);
+  font-family:Tahoma,Arial,sans-serif;
+  overflow-x:hidden
+}
+
+a{
+  text-decoration:none;
+  color:inherit
+}
+
+button,
+input,
+textarea{
+  font:inherit
+}
+
+button{
+  cursor:pointer
+}
+
+.wrap{
+  width:min(1180px,94vw);
+  margin:auto
+}
+
+
+/* =========================
+   القائمة العلوية
+========================= */
+
+.nav-shell{
+  position:sticky;
+  top:0;
+  z-index:100;
+
+  background:
+  linear-gradient(
+    100deg,
+    #3a0807,
+    #741a12 36%,
+    #174838 70%,
+    #06271f
+  );
+
+  border-bottom:
+  1px solid rgba(232,189,104,.55);
+
+  box-shadow:
+  0 9px 24px rgba(22,7,5,.22)
+}
+
+.nav{
+  min-height:66px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  color:#ffe9b6
+}
+
+.brand{
+  font-size:20px;
+  font-weight:900;
+  white-space:nowrap
+}
+
+.links{
+  display:flex;
+  gap:5px;
+  align-items:center
+}
+
+.links a{
+  font-size:14px;
+  font-weight:800;
+  padding:10px 12px;
+  border-radius:12px
+}
+
+.links a:hover{
+  background:#ffffff12
+}
+
+.menu-btn{
+  display:none;
+  width:48px;
+  height:48px;
+  border-radius:15px;
+  border:1px solid #e8bd6870;
+  background:#ffffff08;
+  color:#f7d58b;
+  font-size:26px
+}
+
+
+/* =========================
+   الواجهة الفخمة
+========================= */
+
+.hero-area{
+  padding:16px 0 26px;
+
+  background:
+  radial-gradient(
+    circle at top,
+    #fff9ed,
+    #f5e8d4 55%,
+    #ead5b6
+  )
+}
+
+.hero-card{
+  position:relative;
+  overflow:hidden;
+  border-radius:28px;
+
+  border:
+  1px solid #b07b3e55;
+
+  box-shadow:
+  0 24px 55px rgba(48,19,8,.23);
+
+  background:#170807
+}
+
+.hero-bg{
+  position:absolute;
+  inset:0;
+
+  background:
+  linear-gradient(
+    100deg,
+    #5d100b 0%,
+    #8a2515 34%,
+    #2d2c1d 51%,
+    #0d4e3d 75%,
+    #04291f 100%
+  )
+}
+
+.hero-bg:before{
+  content:"";
+  position:absolute;
+  inset:0;
+
+  background:
+  radial-gradient(
+    circle at 25% 45%,
+    #ff8d321f,
+    transparent 27%
+  ),
+  radial-gradient(
+    circle at 74% 30%,
+    #f5d68d12,
+    transparent 25%
+  ),
+  linear-gradient(
+    180deg,
+    #00000008,
+    #00000044
+  )
+}
+
+.hero-pattern{
+  position:absolute;
+  inset:0;
+  opacity:.22;
+
+  background-image:
+  linear-gradient(
+    45deg,
+    transparent 47%,
+    #dcb862 48%,
+    #dcb862 49%,
+    transparent 50%
+  ),
+  linear-gradient(
+    -45deg,
+    transparent 47%,
+    #dcb862 48%,
+    #dcb862 49%,
+    transparent 50%
+  );
+
+  background-size:42px 42px;
+
+  mask-image:
+  linear-gradient(
+    90deg,
+    #000 0%,
+    transparent 20%,
+    transparent 80%,
+    #000 100%
+  )
+}
+
+.hero-inner{
+  position:relative;
+  z-index:2;
+
+  min-height:430px;
+
+  padding:
+  28px 42px 34px;
+
+  display:grid;
+
+  grid-template-columns:
+  1fr 1.22fr 1fr;
+
+  align-items:center;
+  gap:16px;
+
+  color:#fff3c8
+}
+
+.hero-left{
+  text-align:center
+}
+
+.hero-city{
+  font-size:64px;
+  line-height:1;
+  font-weight:900;
+  color:#ffe39a;
+
+  text-shadow:
+  0 4px 18px #0007
+}
+
+.hero-slogan{
+  font-size:27px;
+  font-weight:800;
+  margin-top:20px;
+  color:#f9e3b2
+}
+
+.hero-center{
+  text-align:center
+}
+
+.hero-200{
+  font-family:Arial,sans-serif;
+  font-size:166px;
+  line-height:.82;
+  font-weight:900;
+  letter-spacing:-9px;
+
+  background:
+  linear-gradient(
+    180deg,
+    #fff1b9 0%,
+    #e8b34f 48%,
+    #ffc968 68%,
+    #b86c21 100%
+  );
+
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+
+  text-shadow:
+  0 7px 22px rgba(0,0,0,.18);
+
+  filter:
+  drop-shadow(0 3px 0 #f5d68d)
+}
+
+.hero-years{
+  font-size:27px;
+  font-weight:900;
+  margin-top:18px;
+  color:#f7e4bc
+}
+
+.hero-right{
+  text-align:center
+}
+
+.hero-anniv{
+  font-size:39px;
+  line-height:1.35;
+  font-weight:900;
+  color:#ffe7a8
+}
+
+.hero-date{
+  font-size:20px;
+  margin-top:10px;
+  color:#f0d6a2
+}
+
+.hero-line{
+  height:2px;
+
+  background:
+  linear-gradient(
+    90deg,
+    transparent,
+    #edc778,
+    transparent
+  );
+
+  margin:
+  10px auto;
+
+  width:84%
+}
+
+
+/* =========================
+   شكل المدينة
+========================= */
+
+.skyline{
+  position:absolute;
+  right:0;
+  left:0;
+  bottom:0;
+
+  height:88px;
+  opacity:.42;
+  z-index:1;
+
+  background:
+  linear-gradient(
+    180deg,
+    transparent,
+    #090906aa
+  )
+}
+
+.buildings{
+  position:absolute;
+
+  bottom:0;
+  left:50%;
+
+  transform:
+  translateX(-50%);
+
+  width:80%;
+  height:70px;
+
+  background:#050806;
+
+  clip-path:polygon(
+    0 100%,
+    0 70%,
+    4% 70%,
+    4% 35%,
+    9% 35%,
+    9% 62%,
+    14% 62%,
+    14% 45%,
+    18% 45%,
+    18% 68%,
+    23% 68%,
+    23% 27%,
+    28% 27%,
+    28% 60%,
+    34% 60%,
+    34% 52%,
+    39% 52%,
+    39% 67%,
+    45% 67%,
+    45% 15%,
+    47% 15%,
+    47% 0,
+    49% 0,
+    49% 67%,
+    54% 67%,
+    54% 42%,
+    60% 42%,
+    60% 57%,
+    66% 57%,
+    66% 36%,
+    72% 36%,
+    72% 64%,
+    78% 64%,
+    78% 49%,
+    83% 49%,
+    83% 69%,
+    89% 69%,
+    89% 32%,
+    94% 32%,
+    94% 72%,
+    100% 72%,
+    100% 100%
+  )
+}
+
+
+/* =========================
+   النخيل
+========================= */
+
+.palm{
+  position:absolute;
+  bottom:30px;
+  width:70px;
+  height:115px;
+  opacity:.38;
+  z-index:1
+}
+
+.palm.l{
+  left:7%
+}
+
+.palm.r{
+  right:8%;
+  transform:scaleX(-1)
+}
+
+.trunk{
+  position:absolute;
+  width:7px;
+  height:72px;
+  background:#050705;
+  left:31px;
+  bottom:0;
+  transform:rotate(3deg);
+  border-radius:5px
+}
+
+.leaf{
+  position:absolute;
+  width:48px;
+  height:12px;
+
+  border-radius:
+  100% 0 100% 0;
+
+  background:#050705;
+
+  transform-origin:
+  100% 50%;
+
+  left:-11px;
+  top:30px
+}
+
+.leaf:nth-child(2){
+  transform:rotate(35deg)
+}
+
+.leaf:nth-child(3){
+  transform:rotate(70deg)
+}
+
+.leaf:nth-child(4){
+  transform:rotate(110deg)
+}
+
+.leaf:nth-child(5){
+  transform:rotate(145deg)
+}
+
+.leaf:nth-child(6){
+  transform:rotate(180deg)
+}
+
+
+/* =========================
+   أزرار الواجهة
+========================= */
+
+.hero-actions{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:16px
+}
+
+.hero-actions a,
+.hero-actions button{
+  border:0;
+  border-radius:999px;
+  padding:13px 22px;
+  font-weight:900
+}
+
+.gold-btn{
+  background:
+  linear-gradient(
+    #f4d18a,
+    #ce9346
+  );
+
+  color:#31160c;
+
+  box-shadow:
+  0 8px 20px #8b57252b
+}
+
+.dark-btn{
+  background:
+  linear-gradient(
+    #175441,
+    #07382e
+  );
+
+  color:#fff0c7;
+
+  border:
+  1px solid #e4ba6755!important
+}
+
+
+/* =========================
+   عنوان الاحتفالية
+========================= */
+
+.intro{
+  padding:34px 0;
+  background:#fff9ef
+}
+
+.intro-card{
+  border-radius:30px;
+
+  padding:
+  38px 28px;
+
+  background:
+  linear-gradient(
+    180deg,
+    #fffdfa,
+    #fff7e9
+  );
+
+  box-shadow:
+  var(--shadow);
+
+  border:
+  1px solid #bf8a4950;
+
+  text-align:center
+}
+
+.basmala{
+  font-size:34px;
+  line-height:1.8;
+  font-weight:800
+}
+
+.festival-title{
+  margin:
+  14px 0 12px;
+
+  font-size:58px;
+  line-height:1.3;
+  font-weight:900;
+  color:#702012
+}
+
+.festival-title span{
+  color:#a8421e
+}
+
+.festival-sub{
+  font-size:27px;
+  line-height:1.9;
+  font-weight:800;
+  color:#451d12;
+
+  max-width:900px;
+  margin:auto
+}
+
+
+/* =========================
+   ختم الزاوية
+========================= */
+
+.seal{
+  width:220px;
+  height:220px;
+
+  border-radius:50%;
+
+  margin:
+  26px auto 0;
+
+  display:grid;
+  place-items:center;
+
+  background:
+  radial-gradient(
+    circle,
+    #fff8dc 0 55%,
+    #e5b96b 56% 61%,
+    #6f1610 62% 75%,
+    #f4d28b 76% 79%,
+    #fff0bc 80%
+  );
+
+  box-shadow:
+  0 10px 30px #6a3c1e33;
+
+  border:
+  4px solid #f8d992;
+
+  position:relative
+}
+
+.seal:before{
+  content:
+  "زاوية الشيخ سيديا الكبير";
+
+  position:absolute;
+  top:32px;
+
+  font-weight:900;
+  color:#6b160f;
+  font-size:16px
+}
+
+.book{
+  font-size:64px;
+  margin-top:20px
+}
+
+.seal:after{
+  content:
+  "احتفالية بوتلميت • 200 عام";
+
+  position:absolute;
+  bottom:30px;
+
+  font-size:13px;
+  font-weight:900;
+  color:#6b160f
+}
+
+
+/* =========================
+   العد التنازلي
+========================= */
+
+.countdown{
+  padding:28px 0;
+  background:#fffaf2
+}
+
+.count-panel{
+  background:
+  linear-gradient(
+    #4b110d,
+    #250907
+  );
+
+  border:
+  1px solid #e7be6b80;
+
+  border-radius:28px;
+
+  padding:24px;
+
+  box-shadow:
+  var(--shadow)
+}
+
+.count-panel h2{
+  text-align:center;
+  color:#f6deb0;
+  font-size:32px;
+
+  margin:
+  0 0 20px
+}
+
+.count-grid{
+  display:grid;
+  grid-template-columns:
+  repeat(4,1fr);
+  gap:14px
+}
+
+.count-box{
+  background:
+  radial-gradient(
+    circle at 50% 0,
+    #ffcf721c,
+    transparent 45%
+  ),
+  linear-gradient(
+    #5b1b11,
+    #32100b
+  );
+
+  border:
+  1.5px solid #e7be6b99;
+
+  border-radius:22px;
+  text-align:center;
+
+  padding:
+  20px 10px;
+
+  color:#fff
+}
+
+.count-num{
+  font-size:62px;
+  line-height:1;
+  font-weight:900;
+  color:#fff4d2
+}
+
+.count-label{
+  font-size:21px;
+  font-weight:800;
+  margin-top:10px;
+  color:#efd5aa
+}
+
+
+/* =========================
+   الأقسام
+========================= */
+
+.section{
+  padding:34px 0
+}
+
+.section-title{
+  text-align:center;
+  margin:0 0 22px;
+  font-size:36px;
+  color:#3f160e
+}
+
+.section-sub{
+  text-align:center;
+
+  margin:
+  -10px auto 24px;
+
+  color:var(--muted);
+  font-size:18px;
+  max-width:760px;
+  line-height:1.8
+}
+
+.cards{
+  display:grid;
+
+  grid-template-columns:
+  repeat(3,1fr);
+
+  gap:18px
+}
+
+.card{
+  background:#fffaf1;
+
+  border:
+  1px solid #7a4e2429;
+
+  border-radius:24px;
+  padding:22px;
+
+  box-shadow:
+  var(--shadow)
+}
+
+.card .icon{
+  width:58px;
+  height:58px;
+
+  border-radius:18px;
+
+  display:grid;
+  place-items:center;
+
+  background:
+  linear-gradient(
+    #f3d38d,
+    #cf984c
+  );
+
+  font-size:28px;
+  margin-bottom:14px
+}
+
+.card h3{
+  margin:0 0 10px;
+  font-size:25px;
+  color:#48170f
+}
+
+.card p{
+  margin:0;
+  color:#6a5548;
+  line-height:1.9;
+  font-size:17px;
+  font-weight:600
+}
+
+
+/* =========================
+   الفعاليات
+========================= */
+
+.events-grid{
+  display:grid;
+
+  grid-template-columns:
+  repeat(3,1fr);
+
+  gap:16px
+}
+
+.event{
+  background:#fffaf2;
+
+  border:
+  1px solid #85582a2e;
+
+  border-radius:22px;
+
+  padding:20px;
+
+  box-shadow:
+  var(--shadow)
+}
+
+.event .date{
+  display:inline-block;
+  background:#0a3c30;
+  color:#f9e3b5;
+
+  padding:
+  7px 11px;
+
+  border-radius:999px;
+
+  font-size:13px;
+  font-weight:800;
+
+  margin-bottom:10px
+}
+
+.event h3{
+  margin:
+  0 0 8px;
+
+  font-size:23px;
+  color:#40150e
+}
+
+.event p{
+  margin:0;
+  color:#695448;
+  line-height:1.8
+}
+
+.event .time{
+  margin-top:12px;
+  font-weight:900;
+  color:#761c12
+}
+
+.empty{
+  text-align:center;
+
+  padding:30px;
+
+  border:
+  1px dashed #6e4d4e4d;
+
+  border-radius:20px;
+
+  color:#826b59;
+  background:#fffaf1
+}
+
+
+/* =========================
+   عن التظاهرة
+========================= */
+
+.about{
+  background:
+  linear-gradient(
+    110deg,
+    #4d0e0b,
+    #721810 45%,
+    #0c4435
+  );
+
+  color:#fff
+}
+
+.about-box{
+  display:grid;
+  grid-template-columns:
+  1fr 1fr;
+  gap:24px;
+  align-items:center
+}
+
+.about-copy h2{
+  font-size:42px;
+  margin:0 0 16px;
+  color:#ffedc0
+}
+
+.about-copy p{
+  font-size:20px;
+  line-height:2;
+  color:#fff8eb;
+  margin:0
+}
+
+.about-side{
+  background:#ffffff14;
+
+  border:
+  1px solid #f1d39738;
+
+  border-radius:26px;
+  padding:24px
+}
+
+.about-side strong{
+  display:block;
+  font-size:26px;
+  color:#ffe39b;
+  margin-bottom:10px
+}
+
+.about-side p{
+  margin:0;
+  line-height:1.9
+}
+
+.leader-block{
+  margin-top:20px;
+  padding-top:20px;
+
+  border-top:
+  1px solid #ffe39b3d
+}
+
+.leader-block strong{
+  font-size:23px;
+  margin-bottom:8px
+}
+
+.leader-block p{
+  font-size:20px;
+  font-weight:700;
+  color:#fff9ed
+}
+
+
+/* =========================
+   لوحة التحكم
+========================= */
+
+.admin-fab{
+  position:fixed;
+  left:18px;
+  bottom:18px;
+  z-index:90;
+
+  border:
+  1px solid #ecc77973;
+
+  background:
+  linear-gradient(
+    #0d4b3b,
+    #063128
+  );
+
+  color:#fff0c8;
+
+  padding:
+  13px 18px;
+
+  border-radius:999px;
+  font-weight:900;
+
+  box-shadow:
+  0 12px 30px #0004
+}
+
+.modal{
+  display:none;
+
+  position:fixed;
+  inset:0;
+  z-index:200;
+
+  background:#0c0705b8;
+
+  padding:20px;
+  overflow:auto
+}
+
+.modal.open{
+  display:block
+}
+
+.panel{
+  width:min(760px,96vw);
+
+  margin:
+  40px auto;
+
+  background:#fffaf2;
+
+  border-radius:28px;
+
+  padding:24px;
+
+  box-shadow:
+  0 25px 60px #0005
+}
+
+.panel h2{
+  margin-top:0
+}
+
+.note{
+  background:#fff1cf;
+  border:1px solid #dfba66;
+  padding:12px;
+  border-radius:14px;
+  line-height:1.7;
+  margin-bottom:18px
+}
+
+.fields{
+  display:grid;
+  grid-template-columns:
+  1fr 1fr;
+  gap:12px
+}
+
+.field.full{
+  grid-column:1/-1
+}
+
+.field label{
+  display:block;
+  font-weight:800;
+  margin-bottom:6px
+}
+
+.field input,
+.field textarea{
+  width:100%;
+  padding:12px;
+  border:1px solid #d8c5a8;
+  border-radius:12px;
+  background:#fff
+}
+
+.admin-actions{
+  display:flex;
+  gap:9px;
+  flex-wrap:wrap;
+  margin-top:14px
+}
+
+.admin-actions button{
+  border:0;
+  border-radius:12px;
+  padding:11px 14px;
+  font-weight:800
+}
+
+.primary{
+  background:#0d4839;
+  color:#fff
+}
+
+.secondary{
+  background:#d8ad5f;
+  color:#2f160d
+}
+
+.danger{
+  background:#8b2017;
+  color:#fff
+}
+
+.close{
+  background:#eee5d7;
+  color:#4a3326
+}
+
+.admin-list{
+  margin-top:16px
+}
+
+.admin-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  padding:11px;
+
+  border-bottom:
+  1px solid #eadfce
+}
+
+.admin-item button{
+  border:0;
+  background:#8b2017;
+  color:#fff;
+  border-radius:10px;
+  padding:7px 10px
+}
+
+footer{
+  background:#180806;
+  color:#ead7b5;
+  text-align:center;
+  padding:20px;
+  font-weight:700
+}
+
+
+/* =========================
+   التابلت
+========================= */
+
+@media(max-width:900px){
+
+  .hero-inner{
+    grid-template-columns:1fr;
+    min-height:auto;
+
+    padding:
+    26px 18px 110px
+  }
+
+  .hero-left,
+  .hero-right{
+    order:2
+  }
+
+  .hero-center{
+    order:1
+  }
+
+  .hero-200{
+    font-size:140px
+  }
+
+  .hero-city{
+    font-size:52px
+  }
+
+  .hero-anniv{
+    font-size:33px
+  }
+
+  .cards,
+  .events-grid{
+    grid-template-columns:
+    repeat(2,1fr)
+  }
+
+  .about-box{
+    grid-template-columns:1fr
+  }
+
+}
+
+
+/* =========================
+   الهاتف
+========================= */
+
+@media(max-width:640px){
+
+  .wrap{
+    width:94vw
+  }
+
+  .nav{
+    min-height:58px
+  }
+
+  .brand{
+    font-size:16px
+  }
+
+  .menu-btn{
+    display:block
+  }
+
+  .links{
+    position:fixed;
+
+    top:62px;
+    right:12px;
+    left:12px;
+
+    display:none;
+
+    flex-direction:column;
+    align-items:stretch;
+
+    background:
+    linear-gradient(
+      #3b0b08,
+      #0b3429
+    );
+
+    padding:12px;
+
+    border:
+    1px solid #e7be6b60;
+
+    border-radius:18px;
+
+    box-shadow:
+    0 18px 35px #0004
+  }
+
+  .links.open{
+    display:flex
+  }
+
+  .links a{
+    text-align:center;
+    padding:12px
+  }
+
+  .hero-card{
+    border-radius:20px
+  }
+
+  .hero-inner{
+    display:flex;
+    flex-direction:column;
+
+    padding:
+    26px 14px 100px;
+
+    gap:12px
+  }
+
+  .hero-left{
+    order:1
+  }
+
+  .hero-center{
+    order:2
+  }
+
+  .hero-right{
+    order:3
+  }
+
+  .hero-city{
+    font-size:49px
+  }
+
+  .hero-slogan{
+    font-size:22px;
+    margin-top:12px
+  }
+
+  .hero-200{
+    font-size:126px;
+    letter-spacing:-6px
+  }
+
+  .hero-years{
+    font-size:22px;
+    margin-top:10px
+  }
+
+  .hero-anniv{
+    font-size:30px
+  }
+
+  .hero-date{
+    font-size:18px
+  }
+
+  .festival-title{
+    font-size:41px
+  }
+
+  .basmala{
+    font-size:25px
+  }
+
+  .festival-sub{
+    font-size:21px
+  }
+
+  .seal{
+    width:190px;
+    height:190px
+  }
+
+  .count-panel{
+    padding:16px;
+    border-radius:22px
+  }
+
+  .count-panel h2{
+    font-size:23px;
+    line-height:1.6
+  }
+
+  .count-grid{
+    grid-template-columns:
+    repeat(2,1fr);
+
+    gap:10px
+  }
+
+  .count-box{
+    padding:16px 8px
+  }
+
+  .count-num{
+    font-size:48px
+  }
+
+  .count-label{
+    font-size:18px
+  }
+
+  .section-title{
+    font-size:29px
+  }
+
+  .section-sub{
+    font-size:16px
+  }
+
+  .cards,
+  .events-grid{
+    grid-template-columns:1fr
+  }
+
+  .about-copy h2{
+    font-size:32px
+  }
+
+  .about-copy p{
+    font-size:18px
+  }
+
+  .fields{
+    grid-template-columns:1fr
+  }
+
+  .field.full{
+    grid-column:auto
+  }
+
+  .admin-fab{
+    left:12px;
+    bottom:12px;
+    padding:11px 15px;
+    font-size:14px
+  }
+
+}
+</style>
+</head>
+
+<body>
+
+<header class="nav-shell">
+
+<div class="wrap nav">
+
+<div class="brand">
+زاوية الشيخ سيديا الكبير
+</div>
+
+<nav class="links" id="navLinks">
+
+<a href="#home">
+الرئيسية
+</a>
+
+<a href="#countdown">
+العد التنازلي
+</a>
+
+<a href="#program">
+برنامج الفعاليات
+</a>
+
+<a href="#about">
+عن التظاهرة
+</a>
+
+</nav>
+
+<button
+class="menu-btn"
+id="menuBtn"
+aria-label="القائمة">
+☰
+</button>
+
+</div>
+
+</header>
+
+
+<main>
+
+
+<!-- الواجهة -->
+
+<section
+class="hero-area"
+id="home">
+
+<div class="wrap">
+
+<div class="hero-card">
+
+<div class="hero-bg"></div>
+
+<div class="hero-pattern"></div>
+
+<div class="skyline">
+
+<div class="buildings"></div>
+
+</div>
+
+
+<div class="palm l">
+
+<span class="trunk"></span>
+
+<span class="leaf"></span>
+<span class="leaf"></span>
+<span class="leaf"></span>
+<span class="leaf"></span>
+<span class="leaf"></span>
+<span class="leaf"></span>
+
+</div>
+
+
+<div class="palm r">
+
+<span class="trunk"></span>
+
+<span class="leaf"></span>
+<span class="leaf"></span>
+<span class="leaf"></span>
+<span class="leaf"></span>
+<span class="leaf"></span>
+<span class="leaf"></span>
+
+</div>
+
+
+<div class="hero-inner">
+
+
+<div class="hero-left">
+
+<div class="hero-city">
+بوتلميت
+</div>
+
+<div class="hero-line"></div>
+
+<div class="hero-slogan">
+أصالة .. وتقدم
+</div>
+
+</div>
+
+
+<div class="hero-center">
+
+<div class="hero-200">
+200
+</div>
+
+<div class="hero-years">
+مئوية بوتلميت • 1826 - 2026
+</div>
+
+</div>
+
+
+<div class="hero-right">
+
+<div class="hero-anniv">
+عام
+<br>
+على التأسيس
+</div>
+
+<div class="hero-date">
+1826 — 2026
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="hero-actions">
+
+<a
+class="gold-btn"
+href="#program">
+برنامج الفعاليات
+</a>
+
+<a
+class="dark-btn"
+href="#countdown">
+العد التنازلي
+</a>
+
+<button
+class="dark-btn"
+id="openAdminTop">
+لوحة التحكم
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- العنوان -->
+
+<section class="intro">
+
+<div class="wrap">
+
+<div class="intro-card">
+
+<div class="basmala">
+بسم الله الرحمن الرحيم
+وعليه نتوكل وبه نستعين
+</div>
+
+<h1 class="festival-title">
+مهرجان
+<span>
+احتفالية مدينة بوتلميت
+</span>
+</h1>
+
+<p class="festival-sub">
+بمناسبة مرور مائتي عام على تأسيسها
+على يد العلامة الشيخ سيديا الكبير
+</p>
+
+
+<div class="seal">
+
+<div class="book">
+📖
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- العد التنازلي -->
+
+<section
+class="countdown"
+id="countdown">
+
+<div class="wrap">
+
+<div class="count-panel">
+
+<h2>
+العد التنازلي لانطلاق فعاليات المئوية
+</h2>
+
+<div class="count-grid">
+
+
+<div class="count-box">
+
+<div
+class="count-num"
+id="days">
+000
+</div>
+
+<div class="count-label">
+يوماً
+</div>
+
+</div>
+
+
+<div class="count-box">
+
+<div
+class="count-num"
+id="hours">
+00
+</div>
+
+<div class="count-label">
+ساعة
+</div>
+
+</div>
+
+
+<div class="count-box">
+
+<div
+class="count-num"
+id="minutes">
+00
+</div>
+
+<div class="count-label">
+دقيقة
+</div>
+
+</div>
+
+
+<div class="count-box">
+
+<div
+class="count-num"
+id="seconds">
+00
+</div>
+
+<div class="count-label">
+ثانية
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- البرنامج -->
+
+<section
+class="section"
+id="program">
+
+<div class="wrap">
+
+<h2 class="section-title">
+برنامج الفعاليات
+</h2>
+
+<p class="section-sub">
+برنامج الأنشطة واللقاءات والمحاضرات
+الخاصة باحتفالية مئوية بوتلميت.
+</p>
+
+<div
+class="events-grid"
+id="eventsGrid">
+</div>
+
+<div
+class="empty"
+id="programEmpty">
+لم تُضف فعاليات بعد.
+</div>
+
+</div>
+
+</section>
+
+
+<!-- الأقسام -->
+
+<section class="section">
+
+<div class="wrap">
+
+<h2 class="section-title">
+أقسام الموقع
+</h2>
+
+<div class="cards">
+
+
+<article class="card">
+
+<div class="icon">
+📅
+</div>
+
+<h3>
+برنامج المهرجان
+</h3>
+
+<p>
+جدول المحاضرات والأنشطة
+واللقاءات وأوقات انطلاقها.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<div class="icon">
+🖼️
+</div>
+
+<h3>
+معرض الصور
+</h3>
+
+<p>
+توثيق بصري لمدينة بوتلميت
+وذاكرتها ومعالمها
+ومشاهد التظاهرة.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<div class="icon">
+📰
+</div>
+
+<h3>
+الأخبار
+</h3>
+
+<p>
+آخر المستجدات والإعلانات
+المرتبطة بمئوية بوتلميت.
+</p>
+
+</article>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- عن المئوية -->
+
+<section
+class="section about"
+id="about">
+
+<div class="wrap about-box">
+
+
+<div class="about-copy">
+
+<h2>
+بوتلميت.. حكاية مدينة لا تنتهي
+</h2>
+
+<p>
+بوتلميت مدينة يلتقي فيها عبق التاريخ
+بروح المستقبل؛ موطن علم وأصالة،
+ومرجع حضاري أنجب العلماء
+وحفظ للذاكرة الموريتانية صفحات مضيئة.
+
+وتأتي هذه المئوية وفاءً للماضي
+وإحياءً لمعالم المدينة ورسالتها،
+وتقديمًا لتراثها للأجيال
+في صورة تليق بمكانتها.
+</p>
+
+</div>
+
+
+<div class="about-side">
+
+<strong>
+الجهة المنظمة
+</strong>
+
+<p>
+زاوية الشيخ سيديا الكبير
+— منارة علم وتربية وإصلاح.
+</p>
+
+
+<div class="leader-block">
+
+<strong>
+رئيس الزاوية
+</strong>
+
+<p>
+الشيخ إسحاق ولد موسى ولد الشيخ سيديا
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+</main>
+
+
+<button
+class="admin-fab"
+id="openAdmin">
+⚙️ لوحة التحكم
+</button>
+
+
+<!-- لوحة التحكم -->
+
+<div
+class="modal"
+id="modal">
+
+<div class="panel">
+
+<h2>
+لوحة التحكم — برنامج الفعاليات
+</h2>
+
+<div class="note">
+هذه النسخة تحفظ الفعاليات
+على هذا الجهاز فقط.
+عند ربطها لاحقاً بقاعدة بيانات
+ستظهر التعديلات لجميع الزوار.
+</div>
+
+
+<div class="fields">
+
+
+<div class="field">
+
+<label>
+عنوان الفعالية
+</label>
+
+<input
+id="evTitle"
+placeholder="مثال: الافتتاح الرسمي">
+
+</div>
+
+
+<div class="field">
+
+<label>
+التاريخ
+</label>
+
+<input
+id="evDate"
+type="date">
+
+</div>
+
+
+<div class="field">
+
+<label>
+الوقت
+</label>
+
+<input
+id="evTime"
+type="time">
+
+</div>
+
+
+<div class="field full">
+
+<label>
+الوصف
+</label>
+
+<textarea
+id="evDesc"
+rows="3"
+placeholder="تفاصيل مختصرة">
+</textarea>
+
+</div>
+
+
+</div>
+
+
+<div class="admin-actions">
+
+<button
+class="primary"
+id="addEvent">
+إضافة الفعالية
+</button>
+
+<button
+class="secondary"
+id="copyData">
+نسخ بيانات البرنامج
+</button>
+
+<button
+class="danger"
+id="clearEvents">
+حذف البرنامج المحلي
+</button>
+
+<button
+class="close"
+id="closeAdmin">
+إغلاق
+</button>
+
+</div>
+
+
+<div
+class="admin-list"
+id="adminList">
+</div>
+
+
+</div>
+
+</div>
+
+
+<footer>
+احتفالية بوتلميت —
+زاوية الشيخ سيديا الكبير
+• 1826 - 2026
+</footer>
+
+
+<script>
+
+(function(){
+
+const $ =
+id =>
+document.getElementById(id);
+
+
+/* تاريخ الاحتفالية */
+
+const target =
+Date.UTC(
+2026,
+11,
+26,
+0,
+0,
+0
+);
+
+
+/* العد التنازلي */
+
+function tick(){
+
+let seconds =
+Math.floor(
+Math.max(
+0,
+target - Date.now()
+) / 1000
+);
+
+
+const days =
+Math.floor(
+seconds / 86400
+);
+
+seconds %=
+86400;
+
+
+const hours =
+Math.floor(
+seconds / 3600
+);
+
+seconds %=
+3600;
+
+
+const minutes =
+Math.floor(
+seconds / 60
+);
+
+
+const remainingSeconds =
+seconds % 60;
+
+
+$('days').textContent =
+String(days)
+.padStart(
+3,
+'0'
+);
+
+
+$('hours').textContent =
+String(hours)
+.padStart(
+2,
+'0'
+);
+
+
+$('minutes').textContent =
+String(minutes)
+.padStart(
+2,
+'0'
+);
+
+
+$('seconds').textContent =
+String(remainingSeconds)
+.padStart(
+2,
+'0'
+);
+
+}
+
+
+tick();
+
+setInterval(
+tick,
+1000
+);
+
+
+document.addEventListener(
+'visibilitychange',
+function(){
+
+if(!document.hidden){
+tick();
+}
+
+}
+);
+
+
+window.addEventListener(
+'pageshow',
+tick
+);
+
+
+window.addEventListener(
+'focus',
+tick
+);
+
+
+/* القائمة */
+
+const nav =
+$('navLinks');
+
+
+$('menuBtn').onclick =
+function(){
+
+nav.classList.toggle(
+'open'
+);
+
+};
+
+
+nav
+.querySelectorAll('a')
+.forEach(
+function(link){
+
+link.onclick =
+function(){
+
+nav.classList.remove(
+'open'
+);
+
+};
+
+}
+);
+
+
+/* تخزين الفعاليات */
+
+const storageKey =
+'boutilimit_events_final';
+
+
+function getEvents(){
+
+try{
+
+return JSON.parse(
+localStorage.getItem(
+storageKey
+) || '[]'
+);
+
+}
+
+catch(error){
+
+return [];
+
+}
+
+}
+
+
+function saveEvents(events){
+
+localStorage.setItem(
+storageKey,
+JSON.stringify(
+events
+)
+);
+
+}
+
+
+/* حماية الكتابة */
+
+function escapeHTML(text){
+
+return String(
+text || ''
+).replace(
+
+/[&<>"']/g,
+
+function(character){
+
+return {
+
+'&':'&amp;',
+
+'<':'&lt;',
+
+'>':'&gt;',
+
+'"':'&quot;',
+
+"'":'&#39;'
+
+}[character];
+
+}
+
+);
+
+}
+
+
+/* عرض الفعاليات */
+
+function renderEvents(){
+
+const events =
+getEvents();
+
+
+const grid =
+$('eventsGrid');
+
+
+const adminList =
+$('adminList');
+
+
+grid.innerHTML =
+'';
+
+
+adminList.innerHTML =
+'';
+
+
+$('programEmpty')
+.style.display =
+events.length
+? 'none'
+: 'block';
+
+
+events.forEach(
+function(event,index){
+
+
+grid.insertAdjacentHTML(
+
+'beforeend',
+
+`
+<article class="event">
+
+<span class="date">
+
+${escapeHTML(
+event.date ||
+'بدون تاريخ'
+)}
+
+</span>
+
+<h3>
+
+${escapeHTML(
+event.title
+)}
+
+</h3>
+
+<p>
+
+${escapeHTML(
+event.desc
+)}
+
+</p>
+
+<div class="time">
+
+${escapeHTML(
+event.time || ''
+)}
+
+</div>
+
+</article>
+`
+
+);
+
+
+adminList.insertAdjacentHTML(
+
+'beforeend',
+
+`
+<div class="admin-item">
+
+<div>
+
+<strong>
+
+${escapeHTML(
+event.title
+)}
+
+</strong>
+
+<div>
+
+${escapeHTML(
+event.date
+)}
+
+${escapeHTML(
+event.time
+)}
+
+</div>
+
+</div>
+
+<button
+data-index="${index}">
+حذف
+</button>
+
+</div>
+`
+
+);
+
+}
+);
+
+
+adminList
+.querySelectorAll(
+'button[data-index]'
+)
+.forEach(
+function(button){
+
+button.onclick =
+function(){
+
+const events =
+getEvents();
+
+
+events.splice(
+Number(
+button.dataset.index
+),
+1
+);
+
+
+saveEvents(
+events
+);
+
+
+renderEvents();
+
+};
+
+}
+);
+
+}
+
+
+/* لوحة التحكم */
+
+function openAdmin(){
+
+$('modal')
+.classList
+.add(
+'open'
+);
+
+}
+
+
+function closeAdmin(){
+
+$('modal')
+.classList
+.remove(
+'open'
+);
+
+}
+
+
+$('openAdmin').onclick =
+openAdmin;
+
+
+$('openAdminTop').onclick =
+openAdmin;
+
+
+$('closeAdmin').onclick =
+closeAdmin;
+
+
+$('modal')
+.addEventListener(
+
+'click',
+
+function(event){
+
+if(
+event.target ===
+$('modal')
+){
+
+closeAdmin();
+
+}
+
+}
+
+);
+
+
+/* إضافة فعالية */
+
+$('addEvent').onclick =
+function(){
+
+const title =
+$('evTitle')
+.value
+.trim();
+
+
+if(!title){
+
+alert(
+'اكتب عنوان الفعالية'
+);
+
+return;
+
+}
+
+
+const events =
+getEvents();
+
+
+events.push({
+
+title:title,
+
+date:
+$('evDate').value,
+
+time:
+$('evTime').value,
+
+desc:
+$('evDesc')
+.value
+.trim()
+
+});
+
+
+saveEvents(
+events
+);
+
+
+$('evTitle').value =
+'';
+
+
+$('evDate').value =
+'';
+
+
+$('evTime').value =
+'';
+
+
+$('evDesc').value =
+'';
+
+
+renderEvents();
+
+};
+
+
+/* حذف الفعاليات */
+
+$('clearEvents').onclick =
+function(){
+
+if(
+
+confirm(
+'هل تريد حذف جميع الفعاليات المحفوظة على هذا الجهاز؟'
+)
+
+){
+
+localStorage.removeItem(
+storageKey
+);
+
+renderEvents();
+
+}
+
+};
+
+
+/* نسخ البيانات */
+
+$('copyData').onclick =
+async function(){
+
+const text =
+JSON.stringify(
+getEvents(),
+null,
+2
+);
+
+
+try{
+
+await navigator
+.clipboard
+.writeText(
+text
+);
+
+
+alert(
+'تم نسخ بيانات البرنامج'
+);
+
+}
+
+catch(error){
+
+prompt(
+'انسخ البيانات:',
+text
+);
+
+}
+
+};
+
+
+renderEvents();
+
+
+})();
+
+</script>
+
+</body>
+</html>
